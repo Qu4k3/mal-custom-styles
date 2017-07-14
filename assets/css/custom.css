@@ -1,0 +1,129 @@
+body {
+    background-color: rgba(34,34,34,0.75) !important;
+}
+
+.list-menu-float .icon-menu {
+  background-color: rgba(34,34,34,0.75) !important;
+}
+
+.list-container {
+    /*background-color: rgba(34,34,34,0.75) !important;*/
+    background-color: transparent !important;
+    border: none;
+}
+
+.status-menu-container {
+    /*background-color: rgba(34,34,34,0.75) !important;*/
+    background-color: transparent;
+    border: none;
+}
+
+.status-menu-container .status-menu .status-button {
+  color: #db5945;
+  text-shadow: 0.5px 0px 2px rgba(0,0,0,0.5);
+}
+
+.status-menu-container .status-menu .status-button:hover {
+  color: #d74630;
+}
+
+.status-menu-container .status-menu .status-button.on:hover {
+  color: #0df246;
+}
+
+.status-menu-container .status-menu .status-button:after {
+  background-color: #0df246;
+  animation: hue-rotate 3s linear infinite;
+}
+
+.status-menu-container .status-menu .status-button.on:after {
+  background-color: #0df246;
+  animation: hue-rotate 6s linear infinite;  
+}
+
+.status-menu-container .search-container #search-button {
+  color: #0df246;
+  animation: hue-rotate 6s linear infinite;
+}
+
+.list-table .list-table-header .header-title {
+  background-color: rgba(34,34,34,0.95) !important;
+}
+
+.list-unit .list-status-title {
+  margin-bottom: 15px;
+}
+
+
+
+
+
+.list-table .list-table-data .data {
+  background-color: rgba(34,34,34,0.75);
+}
+
+.list-table .list-table-data .data.status.watching {
+  background-color: #2db039;
+}
+
+.list-table .list-table-data .data.status.completed {
+  background-color: #26448f;
+}
+
+.list-table .list-table-data .data.status.onhold {
+  background-color: #f1c83e;
+}
+
+.list-table .list-table-data .data.status.dropped {
+  background-color: #a12f31;
+}
+
+.list-table .list-table-data .data.status.plantowatch {
+  background-color: #c3c3c3;
+}
+
+
+#footer-block {
+    background-color: rgba(34,34,34,0.75) !important;
+}
+
+a.username {
+    animation: hue-rotate 12s linear infinite;
+    color: #db5945;
+}
+
+.status-button.on {
+  animation: hue-rotate 6s linear infinite;
+}
+
+.list-unit .list-status-title {
+  background-color: #337ab7;
+}
+
+.list-unit .list-status-title .text {
+  color: #fff;
+}
+
+.list-unit .list-status-title .stats a {
+  color: #fff;
+}
+
+.list-unit .list-status-title .stats a i {
+  color: #00ff80;
+  animation: hue-rotate 6s linear infinite;
+}
+
+@keyframes hue-rotate {
+  from {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
